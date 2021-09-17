@@ -10,4 +10,4 @@ to all entity transactions hence it may impact performance at the application le
 2) Optimal solution, add `@Proxy(lazy=false)` on the entity which requires session management.
 
 # Deployment version url:
-- https://pmt21-backend.herokuapp.com/dashboard
+- https://pmt21-backend.herokuapp.com
