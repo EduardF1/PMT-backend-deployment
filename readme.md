@@ -8,3 +8,6 @@ of the database specified in the connection URL).
 1) Add `spring.jpa.properties.hibernate.enable_lazy_load_no_trans=true` to application.properties, however, this applies
 to all entity transactions hence it may impact performance at the application level.
 2) Optimal solution, add `@Proxy(lazy=false)` on the entity which requires session management.
+
+# Deployment version url:
+- https://pmt21-backend.herokuapp.com/dashboard
