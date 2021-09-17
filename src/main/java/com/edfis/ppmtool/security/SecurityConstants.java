@@ -6,5 +6,5 @@ public class SecurityConstants {
     public static final String SECRET = "JWT_SECRET_KEY";
     public static final String TOKEN_PREFIX = "Bearer "; // the space is important
     public static final String HEADER_STRING = "Authorization";
-    public static final long EXPIRATION_TIME = 300_000; // in milliseconds (5 minutes)
+    public static final long EXPIRATION_TIME = 3000000; // in milliseconds (60 minutes)
 }
